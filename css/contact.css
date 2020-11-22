@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+  text-align: right;
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: black;
+     position: fixed;
+     top: 0;
+     width: 100%;
+ }
+ 
+ li { 
+     font-weight: bold;
+     font-size: 16px;
+     font-family: 'Open Sans', sans-serif;
+ }
+ 
+ ul li {
+   display: inline-block;
+ }
+ 
+ li a {  
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     margin: 6px;
+     text-decoration: none;
+ }
+ 
+ li a:hover {
+     background-color: white;
+     color: black;
+     border-radius: 25px;
+ }
+
+h1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 52px;
+  }
+
+span {
+    border-bottom:4px solid rgb(209, 54, 54);
+    padding-bottom: 5px;
+}
+
+.ourteam-info {
+    text-align: center;
+}
+
+.more-info  {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    resize: vertical;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(80, 57, 57);
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: #d8d6d6;
+    padding: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer {
+    background: black;
+    color: white;
+    height: 70px;
+    position: relative;
+  }
+  
+  .footer .footer-bottom {
+    color: white;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    text-align: left;
+    position: absolute;
+    padding-top: 20px;
+    height: 30px;
+  }
+  
+  .socials {  
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  cursor: pointer;
+  }
+  
+  .fa {
+    color: white;
+    padding: 10px 10px;
+    margin: 10px 30px;
+    border: 1px solid white;
+    border-radius: 30%;
+    transition: .5s;
+  }
+  @media (max-width: 900px) {
+    .fa {
+      padding: 4px 4px;
+      margin: 5px 15px;
+    }
+    li{
+      font-size: 14px;
+    }
+    li  a{
+      padding: 12px 14px;
+      margin:auto; 
+    }
+  }

@@ -1,32 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-    <title>Contact Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <title>Contact Us - Top Tech Start Ups</title>
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" media="screen and (min-width: 900px)" href="./css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
     <header>
-        <nav>"Home","Industry""Our Team""Contact Us"</nav>
-        <p>Contact Us</p>
-        <p>If you know if a Top Tech Start Up that you think should be included on the website, please contact us, using the form below! </p>
-        <p> For more information, or any other enquires, follow our social media, or fill in the form below and we will contact you as soon as we can </p>
+        <nav>
+            <ul class="topnav">
+              <li><a href="../index.html">HOME</a></li>
+              <li><a href="../Pages/About.html">ABOUT</a></li>
+              <li><a href="../Pages/Industry1.html">INDUSTRIES</a></li>
+              <li><a href="../Pages/Ourteam.html">OUR TEAM</a></li>
+              <li><a href="../Pages/Contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>  
     </header>
-    
-<br>
+    <header>
 
-    <article>
-                    <Form></Form>
-    </article>
+        <br>
+        <br>
+        <br>
 
+        <h1><span>CONTACT US</span></h1>
 
+        <article>
+            <p class="ourteam-info"> 
+                If you know a <b>Top Tech Start Up</b> that should be 
+                be included on the website, please contact us, using the form below! <br>
+            </p>
+            <p class="more-info">
+                For more information, or any other enquires, follow our social media, or fill
+                the form below and we will contact you as soon as we can
+            </p>
+        </article>
 
+        <div class="container">
 
+        <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
 
+        <br>
+        <br>
+        <br>
+        
 
-
-
-
-    
+        <footer class="footer">
+            <div class="socials">
+                   <a href="https://twitter.com/TopTechStartUp1" target="_blank"> <i class="fa fa-twitter-square fa-1x" aria-hidden="true"></i></a>
+                   <a href="https://www.facebook.com/Top-Tech-Start-Ups-105967131341956/?view_public_for=105967131341956&ref=page_internal"  target="_blank"> <i class="fa fa-facebook-official fa-1x" aria-hidden="true"></i></a>
+                   <a href="https://www.instagram.com/toptechstartups/" target="_blank"> <i class="fa fa-instagram fa-1x" aria-hidden="true"></i></a>
+           </div>
+        
+           <div class="footer-bottom">
+               &copy; 2020 Top Tech Start Ups 
+           </div>
+        
+        </footer>
 
 </body>
+</html>

@@ -76,6 +76,7 @@ ul {
   div {
      display: flex;
      justify-content: center;
+     flex-wrap: wrap;
     }
   .industry-header {
       font-family: monospace;
@@ -89,6 +90,8 @@ ul {
     border-bottom:4px solid rgb(209, 54, 54);
     padding-bottom: 5px;
   }
-  
-  
-  
+  @media screen and (max-width: 643px) {
+    h1 {
+        margin-top: 60px;
+    }
+  }

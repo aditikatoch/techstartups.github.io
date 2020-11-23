@@ -53,6 +53,7 @@ ul {
     text-align: left;
     font-family: monospace;
     font-size: 35px;
+    padding-left: 20px;
     border-bottom: 2px solid black;
  }
  button { 

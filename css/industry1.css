@@ -83,29 +83,70 @@ img {
     padding-right: 40px;
     margin-left: 20px;
 }
-.cybersmart-p {
-    width: 900px;
+.cybersmart-content {
+    width: 95vw;
     text-align: center;
     font-size: 20px;
-    margin: 50px 0 30px 400px;
-    line-height: 1.4em;
     
+    line-height: 1.4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vw;
+  }
+  .cybersmart-p {
+      margin: 20px 60px 0 40px;
+  }
+.cybersmart-button {
+    align-self: center;
+    justify-self: center;
+    margin-left: 10px;
+    width: 24vw;
+    
+
 }
 
+.tessian-content {
+    width: 95vw;
+    text-align: center;
+    font-size: 20px;
+    
+    line-height: 1.4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vw;
+  }
 .tessian-p {
-    width: 900px;
+    margin: 20px 60px 0 40px;
+}
+.tessian-button {
+    align-self: center;
+    justify-self: center;
+    margin-left: 10px;
+    width: 24vw;
+}
+.cybsafe-content {
+    width: 95vw;
     text-align: center;
     font-size: 20px;
-    margin: 50px 0 30px 400px;
+    
     line-height: 1.4em;
-}
-.cybsafe-p {
-    width: 900px;
-    text-align: center;
-    font-size: 20px;
-    margin: 50px 0 30px 400px;
-    line-height: 1.4em;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4vw;
+  }
+  .cybsafe-p {
+    margin: 20px 60px 0 40px;
+  }
+  .cybsafe-button {
+    align-self: center;
+    justify-self: center;
+    margin-left: 10px;
+    width: 24vw;
+  }
+
 .footer {
     background: black;
     color: white;

@@ -97,3 +97,10 @@ ul {
     line-height: 1.4em;
 
   }
+  .footer {
+    background: black;
+    color: white;
+    height: 40px;
+    position: relative;
+    
+  }

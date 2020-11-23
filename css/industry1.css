@@ -154,5 +154,18 @@ img {
     position: relative;
     
   }
+  @media screen and (max-width: 1000px) {
+      .cybersmart-content,
+      .tessian-content,
+      .cybsafe-content {
+          flex-direction: column;
+      }
+    
+  }
+  @media screen and (max-width: 650px) {
+      .sector {
+          margin-top: 80px;
+      }
+  }
   
  

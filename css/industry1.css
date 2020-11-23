@@ -192,8 +192,21 @@ img {
   }
   @media screen and (max-width: 650px) {
       .sector {
-          margin-top: 80px;
+          margin-top: 50px;
       }
+  }
+  @media (max-width: 900px) {
+    .fa {
+      padding: 4px 4px;
+      margin: 5px 15px;
+    }
+    li{
+      font-size: 14px;
+    }
+    li  a{
+      padding: 12px 14px;
+      margin:auto; 
+    }
   }
   
  

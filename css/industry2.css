@@ -73,30 +73,80 @@ ul {
       text-decoration: none;
       color: white;
   }
-  .company1-p {
-    width: 900px;
+
+  .company1-content {
+    width: 95vw;
     text-align: center;
     font-size: 20px;
-    margin: 50px 0 30px 400px;
+    
     line-height: 1.4em;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vw;
   }
-  .company2-p {
-    width: 900px;
+.company1-p {
+    margin: 20px 60px 0 40px;
+}
+.company1-button {
+    align-self: center;
+    justify-self: center;
+    margin-left: 10px;
+    width: 24vw;
+}
+.company2-content {
+    width: 95vw;
     text-align: center;
     font-size: 20px;
-    margin: 50px 0 30px 400px;
+    
     line-height: 1.4em;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vw;
   }
-  .company3-p {
-    width: 900px;
+.company2-p {
+    margin: 20px 60px 0 40px;
+}
+.company2-button {
+    align-self: center;
+    justify-self: center;
+    margin-left: 10px;
+    width: 24vw;
+}
+.company3-content {
+    width: 95vw;
     text-align: center;
     font-size: 20px;
-    margin: 50px 0 30px 400px;
+    
     line-height: 1.4em;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vw;
   }
+.company3-p {
+    margin: 20px 60px 0 40px;
+}
+.company3-button {
+    align-self: center;
+    justify-self: center;
+    margin-left: 10px;
+    width: 24vw;
+}
+@media screen and (max-width: 1000px) {
+    .company1-content,
+    .company2-content,
+    .company3-content {
+        flex-direction: column;
+    }
+  
+}
+@media screen and (max-width: 650px) {
+    .sector {
+        margin-top: 80px;
+    }
+}
   .footer {
     background: black;
     color: white;

@@ -134,6 +134,42 @@ ul {
     margin-left: 10px;
     width: 24vw;
 }
+.footer {
+    background: black;
+    color: white;
+    height: 70px;
+    position: relative;
+    padding: 18px 0 18px 0;
+  }
+  
+  .footer .footer-bottom {
+    color: white;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    text-align: left;
+    position: absolute;
+    padding-top: 20px;
+    height: 30px;
+  }
+  
+  .socials {  
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  cursor: pointer;
+  }
+  
+  .fa {
+    color: white;
+    padding: 10px 10px;
+    margin: 10px 30px;
+    border: 1px solid white;
+    border-radius: 30%;
+    transition: .5s;
+  }
 @media screen and (max-width: 1000px) {
     .company1-content,
     .company2-content,

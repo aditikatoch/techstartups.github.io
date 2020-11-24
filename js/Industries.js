@@ -9,8 +9,8 @@ var string = document.getElementsByTagName('p');
     console.log(string[i].innerText);
     var font = string[i].style.fontSize
     string[i].addEventListener('mouseenter', function(event){
-            event.target.style.fontSize= '60px' 
-            event.target.style.opacity = '0.5'
+            event.target.style.fontSize= '21px' 
+            //event.target.style.opacity = '0.5'
     })
     string[i].addEventListener('mouseleave', function(event){
         event.target.style.fontSize= font

@@ -3,6 +3,31 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('Page has loaded')
   });
 
+var loadingpage = document.createElement('load');
+
+document.body.appendChild(loadingpage);
+    loadingpage.style.width ='100%';
+    loadingpage.style.height = '100%';
+    loadingpage.style.position = 'fixed';
+    loadingpage.style.zindex='9999';
+    loadingpage.style.background = 'url("https://www.creditmutuel.fr/cmne/fr/banques/webservices/nswr/images/loading.gif") no-repeat center center rgba(0,0,0,0.25)';
+
+  console.log(document.getElementsByTagName('load'))
+
+
+  document.onreadystatechange = function () {
+    var state = document.readyState
+    if (state == 'interactive') {
+         document.getElementsByTagName('content')[0].style.visibility="hidden";
+    } else if (state == 'complete') {
+        setTimeout(function(){
+           document.getElementById('interactive');
+           document.getElementsByTagName('load')[0].style.visibility="hidden";
+           document.getElementsByTagName('content')[0].style.visibility="visible";
+        },1000);
+    }
+  }
+
   var string = document.getElementsByTagName('h1');
   var numberofheadings = string.length;
  console.log( string[0].innerText.length)

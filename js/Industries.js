@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Your code here...
     console.log('Page has loaded')
   });
-var string = document.getElementsByTagName('h1');
+var string = document.getElementsByTagName('p');
   var numberofheadings = string.length;
  console.log( string[0].innerText.length)
   for(var i = 0; i < numberofheadings; i++) {

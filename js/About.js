@@ -27,7 +27,22 @@ document.addEventListener('DOMContentLoaded', function() {
         },1000);
     }
   }*/
+  var string = document.getElementsByTagName('p');
+  var numberofheadings = string.length;
+ console.log( string[0].innerText.length)
+  for(var i = 0; i < numberofheadings; i++) {
+    console.log(string[i].innerText);
+    var font = string[i].style.fontSize
+    string[i].addEventListener('mouseenter', function(event){
+            event.target.style.fontSize= '22px' 
+            //event.target.style.opacity = '0.5'
+    })
+    string[i].addEventListener('mouseleave', function(event){
+        event.target.style.fontSize= font
+        event.target.style.opacity = '1'
+    })
 
+  }
 var buttons = document.getElementsByTagName('button');
 var numberofbuttons = buttons.length;
 

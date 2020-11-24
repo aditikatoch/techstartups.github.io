@@ -85,7 +85,7 @@ input[type=text], select, textarea {
   }
   
   input[type=submit]:hover {
-    background-color: rgb(80, 57, 57);
+    background-color: rgb(209, 54, 54);
   }
 
   .container {

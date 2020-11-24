@@ -10,7 +10,7 @@ document.body.appendChild(loadingpage);
     loadingpage.style.height = '100%';
     loadingpage.style.position = 'fixed';
     loadingpage.style.zindex='9999';
-    loadingpage.style.background = 'url("https://www.creditmutuel.fr/cmne/fr/banques/webservices/nswr/images/loading.gif") no-repeat center center rgba(0,0,0,0.25)';
+    loadingpage.style.background = 'white';
 
   console.log(document.getElementsByTagName('load'))
 

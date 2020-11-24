@@ -3,9 +3,9 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('Page has loaded')
   });
 
-var loadingpage = document.createElement('load');
+/*var loadingpage = document.createElement('load');
 
-document.body.appendChild(loadingpage);
+'''document.body.appendChild(loadingpage);
     loadingpage.style.width ='100%';
     loadingpage.style.height = '100%';
     loadingpage.style.position = 'fixed';
@@ -26,7 +26,7 @@ document.body.appendChild(loadingpage);
            document.getElementsByTagName('content')[0].style.visibility="visible";
         },1000);
     }
-  }
+  }*/
 
   var string = document.getElementsByTagName('h1');
   var numberofheadings = string.length;

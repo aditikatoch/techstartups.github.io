@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
- <head>
-    <title>Top Tech Start Ups</title>
-</head>
 
 <body>
 
@@ -16,18 +11,9 @@
     </article>
 
 <button>Explore</button>
-
-    
-
 </body>
-
-
-
-
-
-
-
-
-
 </html>
+
 Design: https://www.figma.com/file/AVGuesmejfoFZhP6RqkB6o/techstartupsinfo?node-id=0%3A1
+
+Website: https://polarisadi.github.io/techstartups.github.io/

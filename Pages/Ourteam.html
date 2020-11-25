@@ -129,7 +129,20 @@
    </div>
 
 </footer>
-<script src="../js/About.js"></script>
+<script>
+var buttons = document.getElementsByTagName('button');
+  var numberofbuttons = buttons.length;
+  console.log(buttons);
+  for(var i = 0; i < numberofbuttons; i++) {
+      console.log(buttons[i]);
+      buttons[i].addEventListener('mouseover', function(event){
+        event.target.style.backgroundColor='rgb(209, 54, 54)'
+      })
+      buttons[i].addEventListener('mouseout', function(event){
+        event.target.style.backgroundColor=' #000000'
+      })
+    }
+</script>
 </body>
 </html>
 

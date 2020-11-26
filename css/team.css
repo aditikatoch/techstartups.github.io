@@ -146,6 +146,40 @@ main {
     transition: .5s;
   }
    
+  #Lilla {
+    width: 50%; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+  }
+  #HweiLinn {
+    width: 50%; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+  #Bernice {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #Salwa {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #Aditi {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   @media screen and (max-width: 900px) {
     .column {
       width: 50%;
@@ -162,16 +196,4 @@ main {
       padding: 12px 14px;
       margin:auto; 
     }
-  }
-  #Lilla {
-    width: 50%; 
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto;
-  }
-  #HweiLinn {
-    width: 50%; 
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto;
   }

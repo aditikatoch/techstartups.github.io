@@ -87,13 +87,13 @@ ul {
     margin-bottom: 2vw;
   }
 .company1-p {
-    margin: 20px 60px 0 40px;
+    margin: 20px 75px 0 55px;
 }
 .company1-button {
     align-self: center;
     justify-self: center;
     margin-left: 10px;
-    width: 24vw;
+    width: 13vw;
 }
 .company2-content {
     width: 95vw;
@@ -107,13 +107,13 @@ ul {
     margin-bottom: 2vw;
   }
 .company2-p {
-    margin: 20px 60px 0 40px;
+    margin: 20px 75px 0 55px;
 }
 .company2-button {
     align-self: center;
     justify-self: center;
     margin-left: 10px;
-    width: 24vw;
+    width: 18vw;
 }
 .company3-content {
     width: 95vw;
@@ -127,13 +127,24 @@ ul {
     margin-bottom: 2vw;
   }
 .company3-p {
-    margin: 20px 60px 0 40px;
+    margin: 20px 75px 30px 65px;
 }
 .company3-button {
     align-self: center;
     justify-self: center;
     margin-left: 10px;
-    width: 24vw;
+    width: 15vw;
+}
+.melior-img {
+  margin-left: 35px;
+ 
+}
+.roblox-img {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.tbc-img {
+  margin-left: 30px;
 }
 .footer {
     background: black;

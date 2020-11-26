@@ -66,10 +66,9 @@ image1.addEventListener('mouseenter', function(event){
     myLoop(4,event.target,images1)
     })
 
-/*
 var image2 = document.getElementsByClassName('industry-type2')[0].getElementsByTagName("img")[0];
-var images2 = ["../img/security-img.jpg"];
+var images2 = ["../img/security-img.jpg", "../Logos/MeliorGamesLogo.png", "../Logos/Roblox Logo.png", "../Logos/TBC logo.png"];
 image2.addEventListener('mouseenter', function(event){
     myLoop(4,event.target,images2)
     })
-*/
+

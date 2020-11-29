@@ -3,30 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('Page has loaded')
   });
 
-/*var loadingpage = document.createElement('load');
 
-'''document.body.appendChild(loadingpage);
-    loadingpage.style.width ='100%';
-    loadingpage.style.height = '100%';
-    loadingpage.style.position = 'fixed';
-    loadingpage.style.zindex='9999';
-    loadingpage.style.background = 'white';
-
-  console.log(document.getElementsByTagName('load'))
-
-
-  document.onreadystatechange = function () {
-    var state = document.readyState
-    if (state == 'interactive') {
-         document.getElementsByTagName('content')[0].style.visibility="hidden";
-    } else if (state == 'complete') {
-        setTimeout(function(){
-           document.getElementById('interactive');
-           document.getElementsByTagName('load')[0].style.visibility="hidden";
-           document.getElementsByTagName('content')[0].style.visibility="visible";
-        },1000);
-    }
-  }*/
   var string = document.getElementsByTagName('p');
   var numberofheadings = string.length;
  console.log( string[0].innerText.length)
